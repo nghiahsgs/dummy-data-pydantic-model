@@ -24,4 +24,6 @@ users = UserFactory.batch(3)
 print(users)
 users = [e.dict() for e in users]
 print(users)
+
+print(UserFactory.build())
 ```
